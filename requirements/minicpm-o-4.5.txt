@@ -1,0 +1,13 @@
+torch==2.5.1
+torchvision==0.20.1
+# The model's remote code is written against 4.51.0.
+transformers==4.51.0
+huggingface-hub==0.32.4
+accelerate==1.7.0
+numpy==1.26.4
+librosa==0.10.2.post1
+av==12.3.0
+decord==0.6.0
+soundfile==0.12.1
+imageio-ffmpeg==0.6.0
+Pillow

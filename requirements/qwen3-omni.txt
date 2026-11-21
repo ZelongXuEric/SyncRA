@@ -1,0 +1,17 @@
+torch==2.5.1
+torchvision==0.20.1
+transformers==4.57.6
+tokenizers==0.22.1
+huggingface-hub==0.36.0
+safetensors==0.6.2
+accelerate==1.7.0
+# 0.0.9 adds `image_patch_size`, required for this model's 16 px vision patches.
+qwen-omni-utils[decord]==0.0.9
+# Prebuilt wheels: https://github.com/Dao-AILab/flash-attention/releases/tag/v2.7.4.post1
+flash-attn==2.7.4.post1
+numpy==1.26.4
+librosa==0.10.2.post1
+av==12.3.0
+decord==0.6.0
+soundfile==0.12.1
+imageio-ffmpeg==0.6.0
